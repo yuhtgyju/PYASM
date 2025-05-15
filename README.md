@@ -2,6 +2,15 @@
 
 PYASM is a minimalistic Python-based assembler that compiles a small custom assembly-like language into a bootable x86 binary. The output is a boot sector image usable in virtual machines like QEMU or real hardware (if you're brave).
 
+## Requirements
+
+### Required
+- Python 3.7+
+
+### Optional but Highly Recommended
+- Debian/Ubuntu Linux distro (this is what it was tested on)
+- QEMU for running/testing the resulting boot sector image
+
 ## Features
 
 ### Register Movement
